@@ -547,7 +547,7 @@ Healthchecks instance in production.
     tracebacks in email, review and edit the
     [ADMINS](https://docs.djangoproject.com/en/6.1/ref/settings/#admins) and
     [SERVER_EMAIL](https://docs.djangoproject.com/en/6.1/ref/settings/#server-email)
-    settings. Consider setting up exception logging with [Sentry](https://sentry.io/for/django/).
+    settings.
 * Use a reverse proxy. Do not expose the Healthchecks instance directly to the public
   internet, put a reverse proxy such as nginx, HAProxy, or Caddy in front of it.
 
